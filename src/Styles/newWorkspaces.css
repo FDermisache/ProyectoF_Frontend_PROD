@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.contenedorPrincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(61, 16, 66);
+    flex-direction: column;
+}
+
+.contenedorContenido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 620px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px black;
+    flex-direction: column;
+
+}
+
+
+
+
+.ContenedorTitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+.ContenedorPaso1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Asegura que el contenido está centrado */
+    width: 100%;
+}
+
+.ContenedorPaso {
+    align-self: flex-start; /* Lo alinea a la izquierda */
+    margin-left: 20px; /* Ajusta según sea necesario */
+}
+
+.paso {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.ContenedorParrafo {
+    text-align: center; /* Centra el texto del párrafo */
+    width: 80%; /* Ajusta el ancho para que no quede pegado a los bordes */
+}

@@ -1,0 +1,510 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+body{
+width: 100%;
+height: 100%;
+background-color: white;
+
+}
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Estilos para el header */
+
+.imgSlack{
+width: 100px;
+height: 41px;
+padding: 4px 0px 0px 0px;
+
+}
+
+.header{
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.NavBar{
+    color: black;
+    font-size: 17px;
+    padding: 0px 16px 0px 0px;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* BOTONES */
+
+.botonVentas{
+    background-color: transparent;
+    border: solid 1px white;
+    padding: 17px 17px 17px 17px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    width: 195px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.botonIniciar{
+    width: 146px;
+    height: 50px;
+    background-color: rgb(97, 31, 105);
+    border:none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white ;
+    font-weight: bold;
+}
+.botonIniciar .iniciar{
+    color: white;
+    font-size: 14px;
+    text-shadow: none;
+}
+
+.botonNew{
+    color: rgb(97, 31, 105);
+    background-color: white;
+    border: solid 1px rgb(97, 31, 105);
+    padding: 17px 17px 17px 17px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    
+}
+.botonRegistrarse{
+    color: rgb(97, 31, 105);
+    background-color: white;
+    border: solid 1px rgb(97, 31, 105);
+    padding: 17px 17px 17px 17px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+
+.boton{
+    background-color: transparent;
+    border: none;
+}
+.botonAgregar{
+    color: white;
+    background-color:darkcyan;
+    border: none;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.ulLogos{
+    display: flex;
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    
+}
+
+.spanLogo{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.imgLogo{
+    display: flex;
+    width: 68px;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.imgLogo1{
+    display: flex;
+    width: 178px;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* TEXTO */
+
+
+
+.TextSpan{
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.TextSpanEspecial{
+    color: #36c5f0;;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.title{
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: start;
+    margin: 15px 15px 15px 15px;
+}
+
+.title h1{
+    color: white;
+    font-size: 50px;
+}
+
+
+.Vermas{
+    font-size: 14px;
+    color: #1264a3;
+}
+
+.spanTexto_gratuita{
+    color: black;
+    font-size: 16px;
+}
+.negrita{
+    font-weight: bold;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* IMAGENES */
+
+.imgSaludo{
+    width: 52px;
+    height: 55px;
+    margin: 0px 4px 0px 0px;
+}
+.avatarWork{
+    width: 100px;
+    margin: 10px 10px 10px 10px;
+}
+.avatar{
+    border-radius: 10px;
+}
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* CONTENEDORES */
+
+.ContenedorTituloWorkspace{
+    width: 100%;
+}
+
+.ContenedorImagenMano{
+    width: 56px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ContenedorSpan{
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.contenedorBoton{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.ContenedorBotonVentas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.ContenedorImagenSlack{
+    width: 125px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ContenedorVerMas{
+    width: 1000px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    box-shadow:1px 1px 1px 1px rgba(128, 128, 128, 0.527) ;
+    cursor: pointer;
+    height: 54px;
+}
+
+.ContenedorPadre1{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    background-color: white;
+    justify-content: center;
+}
+
+
+.ContenedorPrincipalItem{
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.ContenedorWorkspaceItem{
+    display: flex;
+    width: 1000px;
+    background-color: white;
+    padding: 16px 16px 16px 16px;
+    
+    display: flex;
+    box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.527);
+    align-items: center;
+    
+    
+}
+.ContenedorForm{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.ContMailUsu{
+    width: 52.5%;
+    height: 81px;
+    background-color: rgb(237, 223, 237);
+    display: flex;
+    box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.527);
+    justify-content: center;
+    align-items: center;
+}
+
+.ContMailUsu .TextMail{
+    color: black;
+    font-size: 18px;
+    padding: 16px 16px 16px 16px;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+justify-content: start;
+font-weight: 600;
+}
+
+.contenedorHome{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.contenedorVideoTrabajo{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 35px;
+}
+
+.contenedorBotonComenezar{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.contenedorTexto_gratuita{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.Logos{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+@media screen and (min-width: 1200px) {
+    .header {
+        width: 1200px;
+    }
+
+    .contenedorHome {
+        max-width: 1200px;
+    }
+
+    .contenedorVideoTrabajo video {
+        width: 800px;
+    }
+
+    .contenedorBotonComenezar {
+        justify-content: center;
+    }
+
+}
+   
+
+
+
+@media screen and (max-width: 1199px) {
+    .header {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .contenedorHome {
+        padding: 20px;
+    }
+
+    .contenedorVideoTrabajo video {
+        width: 600px;
+    }
+
+    .contenedorBotonComenezar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .ulLogos {
+        gap: 10px;
+    }
+
+    .imgLogo {
+        width: 50px;
+        height: 35px;
+    }
+
+    .imgLogo1 {
+        width: 120px;
+        height: 35px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .contenedorVideoTrabajo video {
+        width: 400px;
+    }
+
+    .contenedorBotonComenezar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .ulLogos {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .imgLogo {
+        width: 40px;
+        height: 30px;
+    }
+
+    .imgLogo1 {
+        width: 100px;
+        height: 30px;
+    }
+}
+
+
+@media screen and (max-width: 575px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .contenedorVideoTrabajo video {
+        width: 300px;
+    }
+
+    .contenedorBotonComenezar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .ulLogos {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .imgLogo {
+        width: 30px;
+        height: 25px;
+    }
+
+    .imgLogo1 {
+        width: 80px;
+        height: 25px;
+    }
+
+    .contenedorTexto_gratuita {
+        font-size: 14px;
+    }
+}
+

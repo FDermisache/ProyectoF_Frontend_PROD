@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(61, 16, 66);
+    font-family: "Roboto", serif;
+}
+.ContenedorPadre{
+    background-color:  rgb(61, 16, 66);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.NavBar1{
+    color: white;
+    font-size: 17px;
+    padding: 0px 16px 0px 0px;
+    cursor: pointer;
+    font-weight: 800;
+}

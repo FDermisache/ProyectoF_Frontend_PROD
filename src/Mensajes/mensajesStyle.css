@@ -1,0 +1,165 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+
+
+
+.ContenedorMensajes {
+    width: 84%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(87, 89, 87);
+    border-radius: 7px;
+    margin: 12px 12px 12px 12px;
+    position: fixed;
+    bottom: 60px;
+}
+
+
+.FormMensajes{
+    width: 100%;
+    padding: 25px 25px 25px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputMensajes{
+    width: 100%;
+    padding-left: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    outline: none;
+    color: white;
+}
+
+::placeholder{
+    color: rgb(87, 89, 87);
+}
+
+
+.contenedorMensajePersonalizado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contenedorUsu{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+    width: 100%;
+}
+.nombreUsuario{
+    color: white;
+}
+
+.horaMensaje{
+    color: #ABADAB;
+    font-size: 12px;
+}
+.textMensaje{
+    display: flex;
+    color: #D1D2D3;
+    font-size: 15px;
+    width: 100%;
+    align-items: center;
+    
+}
+.contMensaje{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.imgUsu img{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    
+}
+
+.contenedorIconosTop{
+    display: flex;
+    width: 100%;
+    gap: 8px;
+    cursor: pointer;
+    color: rgb(174, 175, 176);
+}
+
+.contenedorIconosBottom{
+    display: flex;
+    width: 100%;
+    gap: 8px;
+    cursor: pointer;
+    color: rgb(174, 175, 176);
+}
+
+.iconosTop{
+    width: 28px;
+    height: 28px;
+    font-size: 18px;
+    margin-top: 22px;
+    padding: 5px 5px 5px 5px;
+}
+
+.iconosBottom{
+    width: 28px;
+    height: 28px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    padding: 3px 3px 3px 3px;
+}
+
+
+.bi-link-45deg{
+    border-left: 1px solid rgb(87, 89, 87);
+    padding-left: 8px;
+}
+
+.bi-list-ol{
+    border-left: 1px solid rgb(87, 89, 87);
+    padding-left: 8px;
+}
+
+.bi-list{
+    border-left: 1px solid rgb(87, 89, 87);
+    padding-left: 8px;
+}
+
+.bi-code-slash{
+    border-left: 1px solid rgb(87, 89, 87);
+    padding-left: 8px;
+}
+
+.bi-camera-video{
+    border-left: 1px solid rgb(87, 89, 87);
+    padding-left: 8px;
+}
+
+.bi-vr{
+    border-left: 1px solid rgb(87, 89, 87);
+    padding-left: 8px;
+}
+
+.bi-plus-lg{
+    border-radius: 100%;
+    padding: 2px 2px 2px 2px;
+    background-color: rgb(47, 50, 54);
+    color:rgb(175, 176, 179);
+}
