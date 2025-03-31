@@ -3,7 +3,7 @@ import { useApiRequest } from "../hooks/useApiRequest";
 import { useWorkspaceForm } from "../hooks/useWorkspacesForm";
 import ENVIROMENT from "../config/enviroment";
 import { useNavigate } from "react-router-dom";
-import '../Styles/NewWorkspaces.css'
+import '../Styles/newWorkspaces.css'
 
 const NewWorkspaces = () => {
   const { formState, handleChangeInput, addTeamMember } = useWorkspaceForm();
