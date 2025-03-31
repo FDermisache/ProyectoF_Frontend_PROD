@@ -47,18 +47,18 @@ const HomeScreen = () => {
             </div>
             <div className='Logos'>
               <ul className='ulLogos'>
-              <li className='spanLogo'><img  className='imgLogo' src="../public/logo-airbnb-small@2x.png" alt="" /></li>
-              <li className='spanLogo'><img  className='imgLogo' src="../public/logo-nasa-small@2x.png" alt="" /></li>
-              <li className='spanLogo'><img  className='imgLogo' src="../public/logo-uber-small@2x.png" alt="" /></li>
-              <li className='spanLogo'><img  className='imgLogo' src="../public/logo-target-small@2x.png" alt="" /></li>
-              <li className='spanLogo'><img  className='imgLogo1' src="../public/logo-nyt-small@2x.png" alt="" /></li>
-              <li className='spanLogo'><img  className='imgLogo' src="../public/logo-etsy-small@2x.png" alt="" /></li>
+              <li className='spanLogo'><img  className='imgLogo' src="https://a.slack-edge.com/a4c4a15/marketing/img/homepage/true-prospects/revamp-exp/logos/logo-airbnb-small@2x.png" alt="" /></li>
+              <li className='spanLogo'><img  className='imgLogo' src="https://a.slack-edge.com/a4c4a15/marketing/img/homepage/true-prospects/revamp-exp/logos/logo-nasa-small@2x.png" alt="" /></li>
+              <li className='spanLogo'><img  className='imgLogo' src="https://a.slack-edge.com/9df734f/marketing/img/homepage/true-prospects/revamp-exp/logos/logo-uber-small@2x.png" alt="" /></li>
+              <li className='spanLogo'><img  className='imgLogo' src="https://a.slack-edge.com/a4c4a15/marketing/img/homepage/true-prospects/revamp-exp/logos/logo-target-small@2x.png" alt="" /></li>
+              <li className='spanLogo'><img  className='imgLogo1' src="https://a.slack-edge.com/a4c4a15/marketing/img/homepage/true-prospects/revamp-exp/logos/logo-nyt-small@2x.png" alt="" /></li>
+              <li className='spanLogo'><img  className='imgLogo' src="https://a.slack-edge.com/a4c4a15/marketing/img/homepage/true-prospects/revamp-exp/logos/logo-etsy-small@2x.png" alt="" /></li>
 
               </ul>
             </div>
             <div>
             <video width="900" autoPlay loop muted>
-              <source src="../public/videoSlack.webm" type="video/mp4" />
+              <source src="https://a.slack-edge.com/d43efea/marketing/img/homepage/revamped-24/headline/hp-headline.es-ES@2x.mp4" type="video/mp4" />
               Tu navegador no soporta el elemento de video.
             </video>
             </div>
