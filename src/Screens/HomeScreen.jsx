@@ -34,7 +34,7 @@ const HomeScreen = () => {
             
             <div className='contenedorVideoTrabajo'>
             <video width="800" autoPlay loop muted>
-              <source src="../public/motor_trabajo.mp4" type="video/mp4" />
+              <source src="https://a.slack-edge.com/d43efea/marketing/img/homepage/revamped-24/headline/hp-headline.es-ES@2x.mp4" type="video/mp4" />
               Tu navegador no soporta el elemento de video.
             </video>
             </div>
@@ -58,7 +58,7 @@ const HomeScreen = () => {
             </div>
             <div>
             <video width="900" autoPlay loop muted>
-              <source src="https://a.slack-edge.com/d43efea/marketing/img/homepage/revamped-24/headline/hp-headline.es-ES@2x.mp4" type="video/mp4" />
+              <source src="https://a.slack-edge.com/0cedc3b/marketing/img/homepage/true-prospects/hero-revamp/animation/hero@2x.es-ES.webm" type="video/mp4" />
               Tu navegador no soporta el elemento de video.
             </video>
             </div>
